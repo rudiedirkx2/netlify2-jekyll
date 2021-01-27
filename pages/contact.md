@@ -1,9 +1,9 @@
 ---
-layout: contact
 title: Contact
-permalink: /contact
+permalink: "/contact"
+layout: contact
 section: contact
-intro_paragraph: |-
+intro_paragraph: |2-
 
   The contact form on this page uses
   [Netlify Forms](https://www.netlify.com/docs/form-handling/) to process
