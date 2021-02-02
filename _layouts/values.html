@@ -14,7 +14,8 @@ layout: default
       <li>
         <h4>{{ value.heading }}</h4>
         {% if value.imageUrl %}
-        <img src="{{ value.imageUrl }}" style="float: left" />
+          <img src="{{ value.imageUrl }}" style="float: left" />
+        {% endif %}
         {{ value.text | markdownify }}
       </li>
     {% endfor %}
