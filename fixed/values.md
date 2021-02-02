@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Our Values
 image: ''
 values:
