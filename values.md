@@ -8,7 +8,7 @@ values:
 - heading: Bar
   text: Bars in the house
   imageUrl: 
-layout: page
+layout: values
 ---
 
 Our values are the best valuesss!
