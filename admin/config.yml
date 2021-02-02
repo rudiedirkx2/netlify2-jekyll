@@ -49,7 +49,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "fixed"
     label: "Fixed"
     files:
-      - file: "fixed/values.md"
+      - file: "values.md"
         label: "Values"
         name: "values"
         fields:
