@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Our Values
+layout: page
 image: ''
 values:
 - heading: Foo
