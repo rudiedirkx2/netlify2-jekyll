@@ -9,7 +9,6 @@ values:
 - heading: Bar
   text: Bars in the house
   imageUrl: 
-layout: page
 ---
 
 Our values are the best values!
