@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+{{ content }}
+
+<section>
+  <h3>Values</h3>
+
+  <ul>
+    {% for value in page.values %}
+      <li>
+        <h4>{{ value.heading }}</h4>
+        {% if value.imageUrl %}
+        <img src="{{ value.imageUrl }}" style="float: left" />
+        {{ value.text | markdownify }}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
