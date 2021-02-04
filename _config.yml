@@ -24,11 +24,6 @@ permalink: "/blog/:title"
 section: true
 netlifycms: true
 analytics: false
-sass:
-  style: compressed
-  sass_dir: _sass
-compress_html:
-  clippings: all
 markdown: kramdown
 kramdown:
   auto_ids: false
